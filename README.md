@@ -6,9 +6,10 @@ Used to convert a .mia file in the course TSEA28 at Linköpings University to sp
 
 ### Setup
 Clone the git repo
-Change the fileencoding from .mia .txt or the file will not be found.
+Change the fileencoding from .mia .txt or the file will not be found.  
+Run by executing:
 ```
-run by executing py ./miatoxlsx.py 'name1' 'name2' 'nameofthemiafile'
+ py ./miatoxlsx.py 'name1' 'name2' 'nameofthemiafile'
 ```
 If no arguments are given the default values are:  
 name1 & name2 = 'no name given'  
